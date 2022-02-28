@@ -1,0 +1,26 @@
+.navbar{  
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.icon{
+color: #015d01;
+margin-bottom: 5px;
+}
+
+.navbar div  span{
+    color: #777777;
+    margin: 10px;
+}
+
+.navbar .nav span{
+    color: #777777;
+    font-family: "Noto Sans", sans-serif;
+    padding: 10px;
+    font-size: 18px;
+ 
+}

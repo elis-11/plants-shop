@@ -1,0 +1,248 @@
+.payment-form {
+  background: rgb(233, 245, 237);
+  background: linear-gradient(
+    160deg,
+    rgb(246, 253, 248) 30%,
+    rgba(197, 225, 206, 1) 100%
+  );
+}
+.cashbox {
+  color: rgb(92, 90, 189);
+  width: 100%;
+  height: 100%;
+  margin-left: 40%;
+  margin-top: 200px;
+}
+.addAcount {
+  color: rgb(221, 135, 101);
+}
+
+.checkout {
+  text-align: center;
+  div.container {
+    .row {
+      --bs-gutter-x: 1.5rem;
+      --bs-gutter-y: 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: calc(-1 * var(--bs-gutter-y));
+      margin-right: calc(-0.5 * var(--bs-gutter-x));
+      margin-left: calc(-0.5 * var(--bs-gutter-x));
+      background-color: white;
+      align-content: center;
+      justify-content: center;
+    }
+    .form-group {
+      text-align: start;
+    }
+    .form-control {
+      // width: 67%;
+      background-color: #e9e9e9;
+      border-radius: 10px;
+      outline: none;
+    }
+
+    .form-control:hover {
+      outline: 1px solid green;
+      background-color: #ffffff;
+    }
+    .form-control:focus {
+      outline: none;
+      box-shadow: 0px 0px 4px 3px #023802b0;
+      background-color: #ffffff;
+    }
+  }
+}
+.minimalistBlack {
+  border-collapse: collapse;
+  width: 100%;
+  tr {
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #04aa6d;
+      color: white;
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:hover {
+    background-color: #ddd;
+  }
+}
+
+h1:not(:first-of-type) {
+  margin-top: 20px;
+}
+ul {
+  list-style-type: disc;
+  margin: 0 0 0 30px;
+}
+
+.empty {
+  text-align: center;
+  color: rgb(224, 120, 120);
+  font-size: 20px;
+  align-items: center;
+}
+.success {
+  background-color: rgb(226, 235, 224);
+  font-style: italic;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  color: rgb(180, 129, 129);
+}
+form {
+  width: 800px;
+  padding: 42px;
+  .note.invalid {
+    color: red;
+  }
+  fieldset {
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+
+    .row {
+      display: flex;
+      align-content: flex-start;
+      padding: 5px;
+      label {
+        &::after {
+          content: ":";
+        }
+        width: 120px;
+        margin: 0 20px 10px 0;
+      }
+
+      input {
+        font-size: 1rem;
+        width: 300px;
+      }
+    }
+    .eyes-icon {
+      padding: 20px;
+      color: brown;
+      font-size: 18px;
+    }
+    .note {
+      font-size: 1rem;
+      margin: 0 0 20px 141px;
+    }
+    .invalid input {
+      color: red;
+    }
+
+    .buttonRow {
+      display: flex;
+      justify-content: right;
+      button {
+        background-color:rgb(118, 129, 118);
+        font-size: 18px;
+        border-radius: 10px;
+        border: none;
+        margin:10px;
+        padding:5px 20px;
+      }
+    }
+  }
+.back-btn{
+  background-color: rgb(164, 184, 164);
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  margin:10px;
+  padding:5px 20px;
+}
+.back-btn:hover{
+  background-color:rgb(86, 94, 86);
+}
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+div.panel {
+  background-color: #eee;
+  width: 560px;
+  margin: 10px 0 0 0;
+  padding: 20px;
+  border-radius: 5px;
+}
+h3 {
+  margin: 0 0 20px 0;
+  color: brown;
+}
+
+.projects-wrapper {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 70vh;
+  padding: 20px 50px;
+  .inputSearch {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f3f8f1;
+    border: 1px solid blue;
+    border-radius: 0.25rem;
+  }
+  .projects-cards-wrapper {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    .project-card {
+      border: solid 1px black;
+      background-color: white;
+      width: 300px;
+      height: 500px;
+      margin: 5px;
+      .image-description {
+        border-top: 1px solid rgb(78, 77, 77);
+        color: rgb(82, 89, 122);
+        padding: 8px;
+        height: 50px;
+        font-size: 0.85rem;
+      }
+      .container {
+        .price {
+          font-size: large;
+
+          width: fit-content;
+          color: rgb(255, 78, 8);
+        }
+        .icon {
+          color: rgba(74, 74, 77, 0.804);
+          width: 50px;
+          font-size: 20px;
+          margin-left: 5px;
+          border: none;
+        }
+      }
+      img {
+        width: 100%;
+        height: 80%;
+      }
+    }
+  }
+}

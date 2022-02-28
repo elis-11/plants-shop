@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  font-size: 1.2vw;
+  display: flex;
+  border-top: 1px solid #024e02;
+
+  justify-content: space-evenly;
+  align-items: baseline;
+  color: #024e02;
+}
+
+.footer > div:first-child {
+  font-family: "Pacifico", cursive;
+}
+
+.footer h4 {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+.footer h5 {
+  font-size: 1rem;
+}
+
+.footer div {
+  padding: 30px;
+}
+
+.footer .icons {
+  font-size: 40px;
+}
+
+.footer .icons > * {
+  margin: 10px;
+}

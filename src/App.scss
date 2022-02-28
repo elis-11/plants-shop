@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  font-family: "Noto Sans", sans-serif;
+
+  .App {
+    font-size: 1.6rem;
+    a {
+      text-decoration: none;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .payment-form {
+      background: rgb(233, 245, 237);
+      background: linear-gradient(
+        160deg,
+        rgb(246, 253, 248) 30%,
+        rgba(197, 225, 206, 1) 100%
+      );
+    }
+    .cashbox {
+      color: rgb(92, 90, 189);
+      width: 100%;
+      height: 100%;
+      margin-left: 40%;
+      margin-top: 200px;
+    }
+
+    div.container {
+      background-color: #eee;
+      .form-control {
+        width: 67%;
+      }
+    }
+
+    .minimalistBlack {
+      border-collapse: collapse;
+      width: 100%;
+      tr {
+        td {
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+        th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #04aa6d;
+          color: white;
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      tr:hover {
+        background-color: #ddd;
+      }
+    }
+
+    h1:not(:first-of-type) {
+      margin-top: 20px;
+    }
+    ul {
+      list-style-type: disc;
+      margin: 0 0 0 30px;
+    }
+
+    div.panel {
+      background-color: #eee;
+      width: 560px;
+      margin: 10px 0 0 0;
+      padding: 20px;
+      border-radius: 5px;
+    }
+  }
+}
+.projects-wrapper {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 70vh;
+  padding: 20px 50px;
+  .inputSearch {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f1f5f8;
+    border: 1px solid blue;
+    border-radius: 0.25rem;
+  }
+  .projects-cards-wrapper {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    .project-card {
+      border: solid 1px black;
+      background-color: white;
+      width: 300px;
+      height: 500px;
+      margin: 5px;
+      .image-description {
+        border-top: 1px solid rgb(78, 77, 77);
+        color: rgb(82, 89, 122);
+        padding: 8px;
+        height: 50px;
+        font-size: 0.85rem;
+      }
+      .container {
+        .price {
+          font-size: large;
+
+          width: fit-content;
+          color: rgb(255, 78, 8);
+        }
+        .icon {
+          color: rgba(74, 74, 77, 0.804);
+          width: 50px;
+          font-size: 20px;
+          margin-left: 5px;
+          border: none;
+        }
+      }
+      img {
+        width: 100%;
+        height: 80%;
+      }
+    }
+  }
+}
