@@ -19,7 +19,7 @@ import { Garden, Indoor, Trending } from "./components/Location";
 import Customers from "./Dashboard/Customers";
 import AddProduct from './components/AddProduct'
 
-import Footer from "./layout/Footer";
+// import Footer from "./layout/Footer";
 import PaymentForm from "./components/checkout/PaymentForm";
 import Successful from "./pages/Successful";
 import ThankYou from "./pages/ThankYou";
