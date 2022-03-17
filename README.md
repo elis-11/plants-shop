@@ -1,5 +1,4 @@
-# Online-Shop
-### https://online-shop-plants.netlify.app/
+# Floral Garden
 ---
 ## How to use
 ### npm install
