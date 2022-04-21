@@ -95,9 +95,6 @@ const Shop = () => {
     }
   }, []);
 
-  // console.log("01", starRatings);
-  // console.log("02", filteredPlants);
-
   const updateUrlWithId = (plant) => {
     qsys.changeBrowserState(
       document,
@@ -194,11 +191,7 @@ const Shop = () => {
         {filteredPlants.length > 1 &&
           filteredPlants.length < initialPlants.length && (
             <div>
-              <button
-                onClick={showAllPlants}
-              >
-                back
-              </button>
+              <button onClick={showAllPlants}>back</button>
               <div className={styles.searchArea}>
                 <input
                   type="text"
@@ -215,12 +208,7 @@ const Shop = () => {
 
         {filteredPlants.length === 1 && (
           <div>
-            <button
-            
-              onClick={showAllPlants}
-            >
-              back
-            </button>
+            <button onClick={showAllPlants}>back</button>
           </div>
         )}
 
@@ -264,7 +252,7 @@ const Shop = () => {
                     >
                       {p.name}
                     </div>
-                 
+
                     <div className={styles.location}>{p.location} plant</div>
 
                     <div className={styles.price}>{`$${p.price}`}</div>
