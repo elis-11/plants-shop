@@ -136,8 +136,6 @@ const Shop = () => {
     return foundPlants;
   };
 
-  useEffect(() => {}, []);
-
   const displaySearchResults = (e) => {
     const searchText = e.target.value;
     if (searchText.trim() !== "" || filteredPlants.length > 0) {

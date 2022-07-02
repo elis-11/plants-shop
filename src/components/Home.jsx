@@ -96,7 +96,7 @@ const Home = () => {
             <section>
               <div>
                 <div>
-                  Plants <br /> for garden
+                  Plants <br /> for <br /> garden
                 </div>
                 <div className={styles.action}>Buy now</div>
               </div>
@@ -107,7 +107,7 @@ const Home = () => {
             <section>
               <div>
                 <div>
-                  Plants <br /> for interior
+                  Plants <br /> for <br /> interior
                 </div>
                 <div className={styles.action}>Buy now</div>
               </div>
@@ -118,7 +118,7 @@ const Home = () => {
             <section>
               <div>
                 <div>
-                  Plants <br /> for office
+                  Plants <br /> for <br /> office
                 </div>
                 <div className={styles.action}>Buy now</div>
               </div>
@@ -282,7 +282,7 @@ const Home = () => {
         <MapBox />
       </div>
 
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 };
