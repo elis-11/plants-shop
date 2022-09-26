@@ -44,7 +44,6 @@ const App = () => {
             <Route path="/myaccount/*" element={<MyAccount />}>
               <Route path="dashboard" element={ <p>under construction 👷 </p>}></Route>
               <Route path="customers" element={<Customers />}></Route>
-              <Route path="customers" element={<Customers />}></Route>
               <Route path="addproduct" element={<AddProduct />}></Route>
             </Route>
 
@@ -60,7 +59,6 @@ const App = () => {
             {currentUserIsInGroup("loggedOutUsers") && (
               <Route path="/login" element={<PageLogin />} />
             )}
-
             {currentUserIsInGroup("admins") && (
               <Route path="/admin" element={<PageAdmin />} />
             )}
