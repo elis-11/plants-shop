@@ -34,7 +34,12 @@ const Cart = (props) => {
                         -
                       </button>
                       {/* <input type="number" value={product.amount} /> */}
-                      <input type="number" value={product.amount} readOnly disabled />
+                      <input
+                        type="number"
+                        value={product.amount}
+                        readOnly
+                        disabled
+                      />
                       <button
                         type="button"
                         onClick={() => context.addItem(product)}
@@ -54,16 +59,17 @@ const Cart = (props) => {
 
           <section className={styles.summary}>
             <h3>Order Summary</h3>
-            <div>
+            <div className="total">
               <div>
                 <div>Order</div>
-
                 <span>{`$${context.totalPrice}`}</span>
               </div>
+
               <div>
                 <span>Delivery</span>
                 <span>$10</span>
               </div>
+              
               <div>
                 <span>Total</span>
                 <span>{`$${context.totalPrice + 10}`}</span>
